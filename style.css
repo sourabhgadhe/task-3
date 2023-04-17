@@ -1,0 +1,44 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.board {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 10px;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    border: 2px solid #333;
+    cursor: pointer;
+    background-color:white ;
+}
+
+
+.box.x {
+    color: #f00;
+    font-size: 100px;
+}
+
+.box.o {
+    color: #00f;
+    font-size: 100px;
+}
+
+button {
+    margin-top: 30px;
+    background-color: rgb(204, 184, 187);
+    border-radius: 15px;
+    height: 30px;
+    width: 120px;
+    cursor: pointer;
+}
+
+h1{
+    font-size: 50px;
+}
